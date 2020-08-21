@@ -1,0 +1,28 @@
+.topping-list
+  display: grid
+  grid-template-columns: 50% 50%
+  justify-items: center
+  img
+    height: 60px
+    display: block
+    margin: auto
+  .toppings
+    margin: 10px
+    width: 90%
+    display: grid
+    grid-template-columns: 1fr 1fr
+  .active
+    background-color: lightyellow !important
+
+@media screen and (max-width: 1350px)
+  .topping-list
+    grid-template-columns: 1fr
+
+@media screen and (max-width: 690px)
+  .topping-list
+    .toppings
+    width: 200px
+    img
+      height: 30px
+
+
