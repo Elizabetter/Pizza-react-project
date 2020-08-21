@@ -4,7 +4,7 @@ In this application you can construct pizza and place an order.
 
 Built With
 React, Redux,
-CSS,
+SASS,
 Material UI
 
 
