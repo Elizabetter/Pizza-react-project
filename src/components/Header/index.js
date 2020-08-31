@@ -22,7 +22,7 @@ export function Header() {
     }));
 
     const classes = useStyles();
-    const [city, setCity] = React.useState('');
+    const [city, setCity] = useState('');
 
     const handleChange = (event) => {
         setCity(event.target.value);

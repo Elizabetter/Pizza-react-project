@@ -17,7 +17,7 @@ const processCartAddRemove = (state, action) => {
      const {cartCost, cart} = state;
      const t = action.payload.topping;
      const existing = cart.find(item => item.topping.id === t.id);
-console.log(existing);
+
      return existing ?
          {...state, cart: cart.filter(item => item !== existing), cartCost: cartCost - existing.topping.cost}
          :
